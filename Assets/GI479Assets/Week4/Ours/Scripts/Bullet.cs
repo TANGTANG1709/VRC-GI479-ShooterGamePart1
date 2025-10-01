@@ -1,40 +1,49 @@
 using UnityEngine;
 
-namespace TheDeveloperTrain.SciFiGuns
+[RequireComponent(typeof(Rigidbody))]
+public class Bullet : MonoBehaviour
 {
+    public float Damage = 10;
 
-    public class Bullet : MonoBehaviour
+    [SerializeField]
+    private Rigidbody rb;
+
+    [SerializeField]
+    private float speed = 10f;
+
+    [SerializeField]
+    private float autoDestroyTime = 15f;
+
+    [SerializeField]
+    private GameObject hitParticle;
+
+    private void OnValidate()
     {
-        [SerializeField]
-        private float speed = 10f;
+        rb = GetComponent<Rigidbody>();
+    }
 
-        [SerializeField]
-        private float autoDestroyTime = 15f;
+    void Start()
+    {
+        Destroy(gameObject, 15f);
+        rb.linearVelocity = speed * transform.forward;
+    }
 
-        [SerializeField]
-        private GameObject hitParticle;
-
-        void Start()
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (hitParticle != null && collision.contactCount > 0)
         {
-            Destroy(gameObject, 15f);
+            var contact = collision.GetContact(0);
+            var hitPos = contact.point;
+            var hitRot = Quaternion.LookRotation(contact.normal);
+
+            Instantiate(hitParticle, hitPos, hitRot);
         }
 
-        void Update()
+        if (collision.gameObject.TryGetComponent(out Health health))
         {
-            transform.Translate(speed * Time.deltaTime * Vector3.forward, Space.Self);
+            health.TakeDamage(Damage);
         }
 
-        private void OnCollisionEnter(Collision collision)
-        {
-            if (hitParticle != null && collision.contactCount > 0)
-            {
-                var contact = collision.GetContact(0);
-                var hitPos = contact.point;
-                var hitRot = Quaternion.LookRotation(contact.normal);
-
-                Instantiate(hitParticle, hitPos, hitRot);
-                Destroy(gameObject);
-            }
-        }
+        Destroy(gameObject);
     }
 }
