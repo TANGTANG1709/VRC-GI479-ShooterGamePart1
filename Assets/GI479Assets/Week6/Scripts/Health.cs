@@ -28,6 +28,8 @@ public class Health : MonoBehaviour
         {
             OnTakeDamage?.Invoke();
             currentHealth -= damageAmount;
+            print($"{currentHealth}");
+            
             if (IsDead())
             {
                 OnDead?.Invoke();
