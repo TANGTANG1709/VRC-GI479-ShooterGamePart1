@@ -17,7 +17,11 @@ PlayerSettings:
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
+<<<<<<< HEAD
   m_ShowUnitySplashScreen: 0
+=======
+  m_ShowUnitySplashScreen: 1
+>>>>>>> 5f5fc35a554c643ae90d9aa19fe6370c73aee576
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
@@ -132,6 +136,10 @@ PlayerSettings:
   switchNVNMaxPublicSamplerIDCount: 0
   switchMaxWorkerMultiple: 8
   switchNVNGraphicsFirmwareMemory: 32
+<<<<<<< HEAD
+=======
+  switchGraphicsJobsSyncAfterKick: 1
+>>>>>>> 5f5fc35a554c643ae90d9aa19fe6370c73aee576
   vulkanNumSwapchainBuffers: 3
   vulkanEnableSetSRGBWrite: 0
   vulkanEnablePreTransform: 1
@@ -273,6 +281,12 @@ PlayerSettings:
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
+<<<<<<< HEAD
+=======
+  androidAppCategory: 3
+  useAndroidAppCategory: 1
+  androidAppCategoryOther: 
+>>>>>>> 5f5fc35a554c643ae90d9aa19fe6370c73aee576
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
@@ -818,12 +832,19 @@ PlayerSettings:
   webGLMemoryLinearGrowthStep: 16
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
+<<<<<<< HEAD
   webGLEnableWebGPU: 0
+=======
+>>>>>>> 5f5fc35a554c643ae90d9aa19fe6370c73aee576
   webGLPowerPreference: 2
   webGLWebAssemblyTable: 0
   webGLWebAssemblyBigInt: 0
   webGLCloseOnQuit: 0
   webWasm2023: 0
+<<<<<<< HEAD
+=======
+  webEnableSubmoduleStrippingCompatibility: 0
+>>>>>>> 5f5fc35a554c643ae90d9aa19fe6370c73aee576
   scriptingDefineSymbols:
     Android: USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
     Standalone: USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS
@@ -939,3 +960,7 @@ PlayerSettings:
   insecureHttpOption: 0
   androidVulkanDenyFilterList: []
   androidVulkanAllowFilterList: []
+<<<<<<< HEAD
+=======
+  androidVulkanDeviceFilterListAsset: {fileID: 0}
+>>>>>>> 5f5fc35a554c643ae90d9aa19fe6370c73aee576

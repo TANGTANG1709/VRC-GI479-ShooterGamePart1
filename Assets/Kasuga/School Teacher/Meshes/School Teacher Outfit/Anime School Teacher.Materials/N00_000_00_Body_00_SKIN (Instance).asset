@@ -8,6 +8,13 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: N00_000_00_Body_00_SKIN (Instance)
+<<<<<<< HEAD
+  m_Shader: {fileID: 4800000, guid: 8c17b56f4bf084c47872edcb95237e4a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _ALPHATEST_ON
+=======
   m_Shader: {fileID: 4800000, guid: 1a97144e4ad27a04aafd70f7b915cedb, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -16,6 +23,7 @@ Material:
   - MTOON_OUTLINE_WIDTH_WORLD
   - _ALPHATEST_ON
   - _NORMALMAP
+>>>>>>> 5f5fc35a554c643ae90d9aa19fe6370c73aee576
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -28,6 +36,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+<<<<<<< HEAD
+=======
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: f0f2d1263af46e54386306afabbc61da, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -36,10 +46,24 @@ Material:
         m_Texture: {fileID: 2800000, guid: b3a0887611dd1df49a39720eb1f4b297, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+>>>>>>> 5f5fc35a554c643ae90d9aa19fe6370c73aee576
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: d59d509e1c14f0443bedecc8cea63532, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+<<<<<<< HEAD
+    m_Ints: []
+    m_Floats:
+    - _BlendMode: 1
+    - _CullMode: 2
+    - _Cutoff: 0.5
+    - _DstBlend: 0
+    - _SrcBlend: 1
+    - _VColBlendMode: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+=======
     - _OutlineWidthTexture:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -104,5 +128,6 @@ Material:
     - _OutlineColor: {r: 0.2745098, g: 0.090196066, b: 0.12549016, a: 1}
     - _RimColor: {r: 0.25, g: 0.25, b: 0.25, a: 1}
     - _ShadeColor: {r: 0.9686274, g: 0.8117647, b: 0.85882354, a: 1}
+>>>>>>> 5f5fc35a554c643ae90d9aa19fe6370c73aee576
   m_BuildTextureStacks: []
   m_AllowLocking: 1

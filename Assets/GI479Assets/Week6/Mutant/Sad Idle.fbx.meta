@@ -3,6 +3,7 @@ guid: 0cc4b0eae76b1d747a807b7d68f9ff28
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
+<<<<<<< HEAD
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -24,6 +25,9 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Elvis_Mouth_MAT1
     second: {fileID: 2100000, guid: 90dd8f98311062d47855634babd2b168, type: 2}
+=======
+  externalObjects: {}
+>>>>>>> 5f5fc35a554c643ae90d9aa19fe6370c73aee576
   materials:
     materialImportMode: 2
     materialName: 0

@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shaderVariantLimit: 128
+<<<<<<< HEAD
+  overrideShaderVariantLimit: 0
+=======
+>>>>>>> 5f5fc35a554c643ae90d9aa19fe6370c73aee576
   customInterpolatorErrorThreshold: 32
   customInterpolatorWarningThreshold: 16
   customHeatmapValues: {fileID: 0}

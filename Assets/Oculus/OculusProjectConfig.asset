@@ -21,7 +21,11 @@ MonoBehaviour:
   sharedAnchorSupport: 0
   renderModelSupport: 0
   trackedKeyboardSupport: 0
+<<<<<<< HEAD
   bodyTrackingSupport: 1
+=======
+  bodyTrackingSupport: 0
+>>>>>>> 5f5fc35a554c643ae90d9aa19fe6370c73aee576
   faceTrackingSupport: 0
   eyeTrackingSupport: 0
   virtualKeyboardSupport: 0
@@ -38,6 +42,7 @@ MonoBehaviour:
   enableIL2CPPLTO: 0
   removeGradleManifest: 1
   focusAware: 1
+<<<<<<< HEAD
   requiresSystemKeyboard: 1
   experimentalFeaturesEnabled: 0
   insightPassthroughEnabled: 0
@@ -46,3 +51,13 @@ MonoBehaviour:
   systemSplashScreen: {fileID: 0}
   systemSplashScreenType: 0
   _systemLoadingScreenBackground: 1
+=======
+  requiresSystemKeyboard: 0
+  experimentalFeaturesEnabled: 0
+  insightPassthroughEnabled: 0
+  _insightPassthroughSupport: 0
+  _processorFavor: 0
+  systemSplashScreen: {fileID: 0}
+  systemSplashScreenType: 0
+  _systemLoadingScreenBackground: 0
+>>>>>>> 5f5fc35a554c643ae90d9aa19fe6370c73aee576
